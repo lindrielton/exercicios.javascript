@@ -9,26 +9,27 @@
 //Considere que o array pode conter tanto números inteiros positivos quanto negativos.
    
 
-//function sumUniqueNumbers(arr){
-//   const unico = [...new Set(arr)];
-// let soma = unico.reduce((inicio, soma) => inicio + soma,0)
-//   console.log(soma)
-//}
+function sumUniqueNumbers(arr){
+   const unico = [...new Set(arr)];
+
+  // unico.forEach(lista => {
+   //   console.log(lista)
+      
+ //  })
+
+   for(i = 0; i <= unico.length; i+unico){
+      
+   }
+   console.log(`${i} + ${unico}`)
+
+   
 
 
-//sumUniqueNumbers([10,50,10,20]);
+  
+   
 
 
-//function removeDuplicates(arr){
- //  const unico = [...new Set(arr)];
- //  console.log(`${unico}`)
-//}
-
-//removeDuplicates(['elton', 25, 'elton', 25, 'matheus', 30, 'matheus', 30])
-
-
-const arr = []
-for(let i = 5; i <= 25; i+=5){
-   arr.push(i);
+ 
 }
-console.log(`${arr}`);
+
+sumUniqueNumbers([10,20,10,20]);
