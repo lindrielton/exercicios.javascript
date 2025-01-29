@@ -4,7 +4,8 @@ function contaString(stt){
 }
 
 
-console.log(contaString("agora vai "));
+console.log(contaString("agora vai"));
+console.log(contaString("agora vai não vai"));
 
 
 
