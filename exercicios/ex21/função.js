@@ -1,13 +1,14 @@
 //Exercício 71: Escreva uma função que aceite uma função de callback e um número, e execute a função de callback após um certo número de milissegundos especificados pelo número.
 
-function limitadorTempo(tempo,callback){
-       console.log('sua mensagem foi entregue')
+function limitadorTempo(callback,tempo){
+       setTimeout(callback,tempo)
 }
 
+let callback = () => console.log('executado!');
 
-setTimeout(limitadorTempo, 3000);
 
 
+console.log(limitadorTempo(callback,2000));
 
 
 
