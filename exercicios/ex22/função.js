@@ -2,7 +2,7 @@
 
 function numeroFunction(num,array,inicio){
     let valor = inicio;
-    for(i=0; i <num; i++){
+    for(i=0; i < num; i++){
         array.forEach(array => {
             valor = array(valor);
         });
